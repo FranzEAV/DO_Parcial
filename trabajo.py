@@ -18,7 +18,7 @@ else:
         for name in dirs:
             os.rmdir(os.path.join(root, name))
 
-os.system("kaggle datasets download -d jiteshkumarsahoo/wikipedia-country-statistics-2023 -p C:/Users/Usuario/Documents/ala/dataset")            
+os.system("kaggle datasets download -d henryshan/starbucks -p C:/Users/Usuario/Documents/ala/dataset")            
 
 os.chdir(location)
 for file in os.listdir():
